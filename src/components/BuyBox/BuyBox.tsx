@@ -2,7 +2,7 @@ import React from "react";
 import MainButton from "./../MainButton/MainButton";
 import IconBox from "./../IconBox/IconBox";
 import AddIcon from "@mui/icons-material/Add";
-import MinimizeIcon from "@mui/icons-material/Minimize";
+import RemoveIcon from '@mui/icons-material/Remove';
 import "./style.scss";
 
 interface props {
@@ -27,7 +27,7 @@ const BuyBox = (props: props) => {
             <div className="actionsBox">
                 <IconBox onClick={props.onClick} icon={<AddIcon/>}/>
                 <p>Gty(BTC)</p>
-                <IconBox onClick={props.onSubtractClick} icon={<MinimizeIcon/>}/>
+                <IconBox onClick={props.onSubtractClick} icon={<RemoveIcon/>}/>
             </div>
             <div className="btcBox">
                 <p>Premium</p>
