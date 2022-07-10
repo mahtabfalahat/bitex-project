@@ -1,0 +1,26 @@
+@import '../../styles/partials/variables' ; 
+
+.buyContainer{
+    width: 45%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+.btcBox{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+.actionsBox{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+p{
+    color: $textGrayColor;
+    font-size: 11px;
+    padding: 9px;
+}

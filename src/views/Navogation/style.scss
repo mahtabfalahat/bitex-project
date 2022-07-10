@@ -1,0 +1,17 @@
+@import '../../styles/partials/variables' ; 
+
+
+.navStyle{
+    background-color: $navBg !important;
+}
+.css-1nl0624{
+    padding-bottom: 0px !important;
+}
+//selected icon style
+.css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected {
+    color : $goldColor !important; 
+}
+//unselected icon style
+.css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root{
+    color : $iconColor !important; 
+}
