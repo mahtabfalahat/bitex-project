@@ -5,7 +5,12 @@ interface props {
   show: boolean;
 }
 const Backdrop = (props: props) => {
-  props.show ? <div className="backdrop" onClick={props.clicked} /> : null;
+  return (
+    <>
+      {props.show ? <div className="backdrop" onClick={props.clicked} /> : null}
+      {/* <p>hi</p> */}
+    </>
+  );
 };
 
 export default Backdrop;
