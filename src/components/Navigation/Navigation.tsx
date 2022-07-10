@@ -35,7 +35,7 @@ export default function FixedBottomNavigation() {
           <BottomNavigationAction label="Markets" icon={<BarChartIcon  />} value="Markets"  />
           <BottomNavigationAction label="Trades" icon={<FindInPageIcon />} value="Trades" onClick={() => {handleRouteChange(trades)}} />
           {getUserRole === USER_ROLE_NAME_ADMIN && (
-              <BottomNavigationAction label="Founds" icon={<AccountBalanceWalletIcon />} value="Founds" onClick={() => {handleRouteChange(founds)}} />
+              <BottomNavigationAction data-testid = "userRole" label="Founds" icon={<AccountBalanceWalletIcon />} value="Founds" onClick={() => {handleRouteChange(founds)}} />
           )}
           <BottomNavigationAction label="Account" icon={<GroupIcon />} value="Account" onClick={() => {handleRouteChange(account)}} />
         </BottomNavigation>
