@@ -12,8 +12,9 @@ import BarChartIcon from '@mui/icons-material/BarChart';
 import HomeIcon from '@mui/icons-material/Home';
 import { useNavigate } from "react-router-dom";
 import {account , trades , founds , home} from './../../routes/Path' ;
+import {USER_ROLE_NAME_ADMIN} from "../../utils/constants";
 import './style.scss' ;
-import {USER_ROLE_NAME_ADMIN, USER_ROLE_NAME_USER} from "../../utils/constants";
+
 export default function FixedBottomNavigation() {
   const [value, setValue] = React.useState("");
   const ref = React.useRef(null);
